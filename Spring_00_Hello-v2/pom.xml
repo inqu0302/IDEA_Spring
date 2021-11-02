@@ -5,11 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.callor</groupId>
-    <artifactId>Hello</artifactId>
+    <artifactId>hello</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <!-- BOM을 사용하여 version 관리를 편리하게 도와주는 속성
-        BOM과 groupId가 같은 dependency들은 BOM과 같은 버전을 사용하게 된다-->
     <dependencyManagement>
         <dependencies>
             <dependency>
