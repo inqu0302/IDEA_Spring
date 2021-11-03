@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec9876a0-4b53-4da2-8178-5775077501da" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Spring_00_Hello_v2_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Spring_00_Hello_v2_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Spring_00_Hello-v2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/hello/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/hello/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="ec9876a0-4b53-4da2-8178-5775077501da" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,6 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1635843314193</updated>
       <workItem from="1635843316666" duration="2370000" />
+      <workItem from="1635898487093" duration="6000" />
     </task>
     <servers />
   </component>
@@ -182,6 +176,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
