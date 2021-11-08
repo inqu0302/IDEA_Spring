@@ -1,0 +1,14 @@
+total 54
+drwxr-xr-x 1 82102 197609     0 Nov  8 13:22 ./
+drwxr-xr-x 1 82102 197609     0 Nov  2 10:36 ../
+drwxr-xr-x 1 82102 197609     0 Nov  8 12:39 .git/
+-rw-r--r-- 1 82102 197609   301 Nov  2 09:24 .gitignore
+-rw-r--r-- 1 82102 197609 11558 Nov  2 09:24 LICENSE
+-rw-r--r-- 1 82102 197609   150 Nov  2 09:29 README.md
+drwxr-xr-x 1 82102 197609     0 Nov  2 13:44 Spring_00_Hello/
+drwxr-xr-x 1 82102 197609     0 Nov  2 18:32 Spring_00_Hello-v2/
+drwxr-xr-x 1 82102 197609     0 Nov  2 14:16 Spring_00_Hello-v3/
+drwxr-xr-x 1 82102 197609     0 Nov  2 16:31 Spring_00_Hello-v4/
+drwxr-xr-x 1 82102 197609     0 Nov  4 12:56 Spring_01_Student/
+drwxr-xr-x 1 82102 197609     0 Nov  8 12:44 Spring_01_Student_v2/
+-rw-r--r-- 1 82102 197609     0 Nov  8 13:22 list.text
