@@ -7,6 +7,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/WEB-INF/views/home.jsp" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html>
 
 <style>
@@ -61,30 +62,16 @@
             </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>2021001</td>
-                <td>홍길동</td>
-                <td>컴퓨터공학</td>
-                <td>1</td>
-                <td>서울시 동대문구</td>
-                <td>02-123-6547</td>
-            </tr>
-            <tr>
-                <td>2021002</td>
-                <td>이몽룡</td>
-                <td>전자공학</td>
-                <td>1</td>
-                <td>전라북도 전주시</td>
-                <td>063-654-1597</td>
-            </tr>
-            <tr>
-                <td>2021003</td>
-                <td>성춘향</td>
-                <td>컴퓨터공학</td>
-                <td>1</td>
-                <td>전라북도 익산시</td>
-                <td>063-984-1597</td>
-            </tr>
+            <c:forEach items="${STLIST}" var="ST">
+                <tr>
+                    <td>${ST.st_num}</td>
+                    <td>${ST.st_name}</td>
+                    <td>${ST.st_dept}</td>
+                    <td>${ST.st_grade}</td>
+                    <td>${ST.st_address}</td>
+                    <td>${ST.st_tel}</td>
+                </tr>
+            </c:forEach>
         </tbody>
     </table>
     <div>
