@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background-color: green;
+    color:white;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+section.content{
+    flex: 1;
+}
+
+form {
+    margin: 10px auto;
+    width: 85%;
+}
+
+div.input_box input{
+    margin: 5px;
+    padding: 13px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    width: 30%;
+}
+
+div.btn_box{
+    display: flex;
+    justify-content: right;
+}
+
+div.btn_box button{
+    margin: 10px;
+    padding: 14px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    width: 15%;
+    border: none;
+}
+
+button.btn_save{
+    background-color: dodgerblue;
+}
+
+button.btn_reset{
+    background-color: orangered;
+}
+
+button.btn_list{
+    background-color: yellowgreen;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    padding: 0.8rem;
+    text-align: center;
+}
