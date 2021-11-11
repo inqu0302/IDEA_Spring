@@ -15,6 +15,15 @@ public class EncryptEx_01 {
         pbe.setAlgorithm(encPolicy);
         pbe.setPassword(salt);
 
+        String username = "root";
+        String password = "!Biz12341234";
+
+        String encUserName = pbe.encrypt(username);
+        String encPassWord = pbe.encrypt(password);
+
+        System.out.printf("user name : %s \n", encUserName);
+        System.out.printf("password : %s \n", encPassWord);
+
         String encText = pbe.encrypt(name);
         System.out.println(encText);
 

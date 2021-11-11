@@ -14,16 +14,16 @@ public class HomeController {
 
     Logger logger = LoggerFactory.getLogger(HomeController.class);
 
-    @Value("${username}")
+    //@Value("${db.username}")
     private String userName;
 
-    @Value("${password}")
+    //@Value("${db.password}")
     private String password;
 
-    @Value("${driverClassName}")
+    //@Value("${db.driver}")
     private String className;
 
-    @Value("${url}")
+    //@Value("${db.url}")
     private String url;
 
     @ResponseBody
