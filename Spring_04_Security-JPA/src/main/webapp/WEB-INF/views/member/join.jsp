@@ -23,6 +23,7 @@
             }).done(function(result){
                 if(result){
                     $("div.input_error").text("이미 사용중인 아아디 입니다")
+                    .css("color","red")
                     $(this).focus()
                 }else{
                     $("div.input_error").text("사용가능한 아이디 입니다")
@@ -74,7 +75,28 @@
         font-weight: bold;
     }
 </style>
-<form:form action="${rootPath}/join" cssClass="join">
+<%/*
+form:form tag 를 사용한 입력폼 디자인
+security 에서 form 에 데이터를 입력하고
+
+서버로 전송할때는 반드시 POST 방식으로 전송해야 한다
+
+GET 방식으로 데이터를 전송할때는 인증(로그인정보)와 관련된
+어떤 기능을 수행할 수 없다
+인증과 관련하여 기능을 수행하려면 POST 로 요청을 해야한다
+
+또한 POST 방식으로 요청할때 _csrf.token 정보를 함께 전송해야 한다
+그렇지 않으면 모든 요청을 서버에서 거부하게 된다
+
+form 으로 만든 입력변수중에 _csrf.token 값을 서버로부터 전달받은
+token 값을 부착하는 코드를 작성해야 한다
+이는 순수 html 코드에서는 상당히 번거로운 일이된다
+
+하지만 spring jsp 코드에서는 form taglib 를 import 하여
+form:form 방식으로 html 코드를 작성한다
+이렇게 되면 자동으로 POST 로 요청이 되며 _csrf.token 관련 코드가 자동작성이 된다
+*/%>
+<form:form cssClass="join">
     <div>
         <input placeholder="사용자 ID" id="username" name="username"/>
     </div>

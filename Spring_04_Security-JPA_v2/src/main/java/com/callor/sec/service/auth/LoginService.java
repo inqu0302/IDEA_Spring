@@ -20,10 +20,10 @@ import org.springframework.stereotype.Service;
 @Service("loginService")
 public class LoginService implements UserDetailsService {
 
-//    private final String encPassword = "$2a$04$76rY/vSPg/6kocmBLJrxd.SuGHuA3hg54YUFixa.3bCSK/EXDhPS2";
+    private final String encPassword = "$2a$04$76rY/vSPg/6kocmBLJrxd.SuGHuA3hg54YUFixa.3bCSK/EXDhPS2";
     private final MemberDao memberDao;
-
     public LoginService(MemberDao memberDao) {
+
         this.memberDao = memberDao;
     }
 
@@ -32,16 +32,16 @@ public class LoginService implements UserDetailsService {
 
         // 1. dao 에서 사용자 정보 가져오기
         // username 으로 member table 에서 findById(username)
-//        UserDetailsVO userVO = UserDetailsVO.builder()
-//                .username("inqu0302")
-//                .password(encPassword)
-//                .isAccountNonExpired(true)
-//                .isEnabled(true)
-//                .isCredentialsNonExpired(true)
-//                .isAccountNonLocked(true)
-//                .build();
+        UserDetailsVO userVO = UserDetailsVO.builder()
+                .username("inqu0302")
+                .password(encPassword)
+                .isAccountNonExpired(true)
+                .isEnabled(false)
+                .isCredentialsNonExpired(true)
+                .isAccountNonLocked(true)
+                .build();
 
-        UserDetailsVO userVO = memberDao.findById(username).get();
+//        UserDetailsVO userVO = memberDao.findById(username).get();
 
         // 2. dao 에서 받은 사용자 정보가 없으면
         // Exception 을 발생시킨다

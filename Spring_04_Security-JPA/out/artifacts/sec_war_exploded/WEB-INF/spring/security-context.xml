@@ -10,6 +10,8 @@
         <constructor-arg index="0" value="4"/>
     </bean>
 
+    <!-- HTTP 테스트 환경에서 csrf 관련 Token 을 form 에 부착시키기 위한
+      Helper class 를 bean 으로 선언-->
     <bean id="cookieCsrfTokenRepository" class="org.springframework.security.web.csrf.CookieCsrfTokenRepository">
         <property name="cookieHttpOnly" value="false"/>
     </bean>
@@ -24,8 +26,8 @@
         <security:intercept-url pattern="/static" access="permitAll()"/>
         <security:intercept-url pattern="/webjars/**" access="permitAll()"/>
         <security:intercept-url pattern="/" access="isAuthenticated()"/>
-
         <security:logout/>
+
         <security:csrf token-repository-ref="cookieCsrfTokenRepository"/>
 
         <security:form-login

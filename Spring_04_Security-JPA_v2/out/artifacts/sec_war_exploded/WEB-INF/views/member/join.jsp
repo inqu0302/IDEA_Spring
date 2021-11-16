@@ -100,8 +100,7 @@ form:form 방식으로 html 코드를 작성한다
     <div>
         <input placeholder="사용자 ID" id="username" name="username"/>
     </div>
-    <div class="input_error">
-    </div>
+    <div class="input_error"></div>
     <div>
         <input placeholder="비밀번호" id="password" type="password" name="password"/>
     </div>
