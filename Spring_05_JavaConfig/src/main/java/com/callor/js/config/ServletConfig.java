@@ -9,12 +9,12 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
-// servlet-context.xml 파일을 대신할 Java Config 클래스
 @Configuration  // context.xml 을 대신하는 파일
 @EnableWebMvc   // servlet-context, dispatcher-servlet.xml 등을 대신하는 파일
                 // servlet 의 시작점을 지정
 @ComponentScan(basePackages = {"com.callor.js.controller",
                                 "com.callor.js.service"})
+// servlet-context.xml 파일을 대신할 Java Config 클래스
 public class ServletConfig implements WebMvcConfigurer {
 
     @Override
