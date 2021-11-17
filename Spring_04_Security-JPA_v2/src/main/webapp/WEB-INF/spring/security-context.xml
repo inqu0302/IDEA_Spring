@@ -47,8 +47,7 @@
 
     <!-- loginService 에서 사용을 하겠다는 설정 -->
     <security:authentication-manager>
-        <security:authentication-provider
-            ref="authenticationProvider"
-            user-service-ref="loginService"/>
+        <security:authentication-provider ref="authenticationProvider"/>
+        <security:authentication-provider user-service-ref="loginService"/>
     </security:authentication-manager>
 </beans>
