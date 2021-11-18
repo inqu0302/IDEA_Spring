@@ -1,4 +1,4 @@
-package com.callor.js.config;
+package com.callor.jc.config;
 
 import org.springframework.context.annotation.Configuration;
 
