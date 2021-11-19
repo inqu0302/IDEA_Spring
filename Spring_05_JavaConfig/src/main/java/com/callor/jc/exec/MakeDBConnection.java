@@ -14,7 +14,7 @@ public class MakeDBConnection {
         final String propsFile = "./src/main/resources/db.properties";
         final Map<String, String> sysEnv = System.getenv();
 
-        final String driver = "com.mysql.cj.Driver";
+        final String driver = "com.mysql.cj.jdbc.Driver";
         final String url = "jdbc:mysql://localhost:3306/naraDB";
         final Scanner scan = new Scanner(System.in);
 

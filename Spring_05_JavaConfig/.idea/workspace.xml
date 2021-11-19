@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="SpringJConfig" />
-      <artifact name="SpringJConfig" />
+      <artifact name="SpringJc" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
@@ -11,15 +10,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9575f453-bd1d-453d-b2c2-77832b6336e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringJConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringJConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringJConfig.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring_05_JavaConfig.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring_05_JavaConfig.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringJConfig/WEB-INF/classes/db.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringJConfig/WEB-INF/views/home.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/js/config/AppWebXmlConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/AppWebXmlConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/js/config/MyBatisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/js/config/RootConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/RootConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/js/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/ServletConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/js/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/AppWebXmlConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/AppWebXmlConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/ServletConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/config/ServletConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/exec/MakeDBConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/exec/MakeDBConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/repository/DDL_Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/repository/DDL_Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/repository/sql/CreateTableSQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/repository/sql/CreateTableSQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/callor/jc/service/impl/BookServiceImplV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/callor/jc/service/impl/BookServiceImplV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/db.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/db.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/db.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +55,13 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="C:\cording\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="211k0kymwm4OzKKfoSx3Cs5ir22" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -64,19 +78,30 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\cording\IDEASpring\Spring_05_JavaConfig\src\main\webapp" />
       <recent name="C:\cording\IDEASpring\Spring_05_JavaConfig\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.54">
     <configuration name="MakeDBConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="callor.com" value="&quot;callor&quot;" />
-      </envs>
       <option name="MAIN_CLASS_NAME" value="com.callor.jc.exec.MakeDBConnection" />
+      <module name="Spring_05_JavaConfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.callor.jc.exec.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NaverConnection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.callor.jc.exec.NaverConnection" />
       <module name="Spring_05_JavaConfig" />
       <extension name="coverage">
         <pattern>
@@ -91,7 +116,7 @@
     <configuration name="Tomcat 9.0.54" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.54" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringJConfig">
+        <artifact name="SpringJc">
           <settings>
             <option name="CONTEXT_PATH" value="/jc" />
           </settings>
@@ -167,27 +192,23 @@
           <option name="VM_PARAMETERS" value="" />
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
-        <EnvironmentVariables>
-          <option name="NAME" value="callor.com" />
-          <option name="VALUE" value="callor" />
-          <option name="IS_PREDEFINED" value="false" />
-        </EnvironmentVariables>
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringJConfig" />
-          <artifact name="SpringJConfig" />
+          <artifact name="SpringJc" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Application.MakeDBConnection" />
+      <item itemvalue="Application.NaverConnection" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.54" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MakeDBConnection" />
+        <item itemvalue="Application.NaverConnection" />
       </list>
     </recent_temporary>
   </component>
@@ -202,6 +223,8 @@
       <workItem from="1637115767464" duration="1687000" />
       <workItem from="1637117479041" duration="661000" />
       <workItem from="1637194560997" duration="9317000" />
+      <workItem from="1637280744438" duration="2807000" />
+      <workItem from="1637283904512" duration="9735000" />
     </task>
     <servers />
   </component>
